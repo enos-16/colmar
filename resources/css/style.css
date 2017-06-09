@@ -8,11 +8,6 @@ html {
   font-size: 16px;
 }
 
-
-/*section {
-  width: 100%;
-}*/
-
 .container {
   margin: 0 auto;
   max-width: 1224px;
@@ -61,6 +56,10 @@ header nav a {
   font-size: 1.125rem;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 
 /* CSS for Banner Section */
 
@@ -103,8 +102,7 @@ header nav a {
   background-color: #393535;
   color: white;
   font-size: 1.5rem;
-  padding: .5rem 0rem;
-  width: 80%;
+  padding: .5rem 8rem;
 }
 
 
@@ -183,6 +181,10 @@ header nav a {
   color: deepskyblue;
 }
 
+.info-list-mobile {
+  display: none;
+}
+
 
 /* CSS for Curriculum Section */
 
@@ -237,6 +239,10 @@ header nav a {
 
 .courses-text p {
   line-height: 1.4;
+}
+
+.course-gallery-mobile {
+  display: none;
 }
 
 
