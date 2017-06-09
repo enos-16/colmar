@@ -1,0 +1,518 @@
+/* CSS for Colmar Academy */
+
+
+/* File defaults */
+
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+
+/*section {
+  width: 100%;
+}*/
+
+.container {
+  margin: 0 auto;
+  max-width: 1224px;
+}
+
+
+/* CSS for Header */
+
+header {
+  height: 4rem;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+header .container {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+}
+
+header img {
+  height: 3rem;
+  margin-left: 1.5rem;
+}
+
+header span {
+  font-size: 1.5rem;
+  flex-grow: 1;
+  font-weight: 300;
+  color: gray;
+}
+
+header span strong {
+  font-weight: 700;
+  color: black;
+}
+
+header nav {
+  margin-right: 1.5rem;
+}
+
+header nav a {
+  padding-left: 1rem;
+  font-size: 1.125rem;
+}
+
+
+/* CSS for Banner Section */
+
+#banner .container {
+  display: flex;
+  background-color: #C7C6C6;
+  padding-top: 4rem;
+}
+
+.banner-image {
+  padding: 2rem 2.5rem 2rem 1.5rem;
+  width: 60%;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+.banner-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #393535;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.banner-text p {
+  font-size: 1.75rem;
+  padding: 2rem 0;
+  line-height: 1.4;
+}
+
+.banner-text a {
+  text-align: center;
+  background-color: #393535;
+  color: white;
+  font-size: 1.5rem;
+  padding: .5rem 0rem;
+  width: 80%;
+}
+
+
+/* CSS for Information Section */
+
+#information .container {
+  display: flex;
+  /*border: 1px solid lightgrey;*/
+}
+
+.info-image {
+  padding: 2rem 1.5rem;
+  width: 60%;
+  color: grey;
+  border-right: 1px solid lightgrey;
+}
+
+.info-image img {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.info-image h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #393535;
+}
+
+.info-image p {
+  padding: 1.5rem 0rem;
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
+}
+
+.info-grid {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+}
+
+.info-grid-img {
+  width: 35%;
+  padding: 1rem;
+}
+
+.info-grid-img img {
+  width: 100%;
+}
+
+.info-grid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: grey;
+  font-weight: 300;
+}
+
+.info-grid-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #393535;
+}
+
+.info-grid-text p {
+  padding: .5rem 0rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.info-grid-text a {
+  color: deepskyblue;
+}
+
+
+/* CSS for Curriculum Section */
+
+#curriculum .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C7C6C6;
+}
+
+#curriculum h1 {
+  padding: 2rem 0rem 1.5rem 0rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #393535;
+}
+
+.course-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+.courses {
+  width: 25%;
+  background-color: white;
+  margin: 0.5rem 1rem;
+}
+
+.courses img {
+  width: 100%;
+}
+
+.courses-text {
+  padding: 1rem 0rem 1.5rem 1rem;
+  color: grey;
+  font-weight: 300;
+}
+
+.courses-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #393535;
+}
+
+.courses-text span {
+  display: block;
+  padding: .5rem 0rem;
+  font-size: 0.9rem;
+}
+
+.courses-text p {
+  line-height: 1.4;
+}
+
+
+/* CSS for Thesis Section */
+
+#thesis .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#thesis .container h1 {
+  padding: 2rem 0rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #393535;
+}
+
+.thesis-container {
+  display: flex;
+  color: grey;
+}
+
+.thesis-video {
+  padding: 0rem 1rem 2rem 1.5rem;
+  width: 60%;
+}
+
+.thesis-video video {
+  width: 100%;
+}
+
+.thesis-video h4 {
+  font-size: 1.75rem;
+  margin: 1.5rem 0rem;
+  color: #393535;
+}
+
+.thesis-video p {
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.thesis-list {
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
+}
+
+.thesis-grid {
+  display: flex;
+}
+
+.thesis-grid-image {
+  width: 35%;
+  padding: 1rem;
+}
+
+.thesis-grid-image img {
+  width: 100%;
+}
+
+.thesis-grid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.thesis-grid-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #393535;
+}
+
+.thesis-grid-text p {
+  padding: .5rem 0rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+
+/* CSS for Footer */
+
+footer {
+  border-top: 1px solid grey;
+  color: grey;
+}
+
+.footer-container {
+  display: flex;
+  padding: 1rem 0rem 2rem;
+}
+
+.footer-container .copyright {
+  flex-grow: 1;
+}
+
+.footer-container a {
+  color: grey;
+  padding: .5rem;
+}
+
+
+/* Breakpoint Adjustments */
+
+
+/* Header Section */
+
+@media only screen and (max-width: 720px) {
+  header {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+  header .container {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+  header .icon {
+    display: none;
+  }
+  .page-title {
+    display: none;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+    margin: 0;
+    height: 2rem;
+  }
+  .mobile-nav img {
+    margin: 0;
+    height: 2rem;
+  }
+  .mobile-nav a {
+    padding: 0rem 2rem;
+  }
+}
+
+
+/* Banner Section */
+
+@media only screen and (max-width: 480px) {
+  #banner .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-image {
+    height: 11.25rem;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .banner-text {
+    width: 100%;
+  }
+  .banner-text h1 {
+    font-size: 2rem;
+    padding: 2rem 0rem 2rem 1rem;
+    line-height: 1.1
+  }
+  .banner-text p {
+    font-size: 1.5rem;
+    padding: 0rem 2rem 0rem 1rem;
+  }
+  .banner-text span {
+    background-color: #8E8E8E;
+    text-align: center;
+    padding: 1rem;
+    margin: 1.5rem 1rem 2rem;
+  }
+  .banner-text a {
+    background-color: #8E8E8E;
+    padding: 0;
+  }
+}
+
+
+/* Information Section */
+
+@media only screen and (max-width: 480px) {
+  .info-image {
+    display: none;
+  }
+  .info-list {
+    display: none;
+  }
+  .info-list-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: .5rem;
+  }
+  .info-grid {
+    flex-direction: column;
+    border-bottom: initial;
+  }
+  .info-grid-img {
+    width: initial;
+    padding: 0.5rem 1rem 0rem 1rem;
+  }
+  .info-grid-text {
+    padding: 1rem 1rem 0.5rem 1rem;
+  }
+  .info-grid-text h3 {
+    font-size: 2.25rem;
+  }
+  .info-grid-text p {
+    font-size: 1.15rem;
+  }
+}
+
+
+/* Curriculum Section */
+
+@media only screen and (max-width: 480px) {
+  #curriculum h1 {
+    padding-bottom: 1rem;
+  }
+  .course-gallery {
+    display: none;
+  }
+  .course-gallery-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #C7C6C6;
+    padding-bottom: 1.5rem;
+  }
+  .courses-list-mobile {
+    padding: 0rem 1rem 0.5rem 1rem;
+  }
+  .course-button {
+    background-color: #949090;
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: block;
+  }
+}
+
+
+/* Thesis Section */
+
+@media only screen and (max-width:480px) {
+  .thesis-list {
+    display: none;
+  }
+  .thesis-video {
+    width: 100%;
+    padding: 0;
+  }
+  .thesis-video h4 {
+    display: none;
+  }
+  .thesis-video p {
+    display: none;
+  }
+  .thesis-container {
+    padding-bottom: 1.5rem;
+  }
+}
+
+
+/* Footer Section */
+
+@media only screen and (max-width:480px) {
+  .footer-container {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+  .footer-container ul {
+    display: none;
+  }
+}
