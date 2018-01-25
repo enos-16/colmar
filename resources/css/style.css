@@ -87,17 +87,20 @@ header nav a {
 }
 
 .banner-text h1 {
+  white-space: nowrap;
   font-size: 3rem;
   font-weight: 900;
 }
 
 .banner-text p {
+  white-space: nowrap;
   font-size: 1.75rem;
   padding: 2rem 0;
   line-height: 1.4;
 }
 
 .banner-text a {
+  white-space: nowrap;
   text-align: center;
   background-color: #393535;
   color: white;
